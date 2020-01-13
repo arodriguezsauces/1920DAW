@@ -1,0 +1,5 @@
+AuthType Digest
+AuthName "gr_alumnos"
+AuthDigestProvider file
+AuthUserFile /var/www/html/.secreto/passwd_digest
+Require user alumno1

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acceso restringido"
+AuthUserFile /var/www/html/.secreto/passwd_basic
+Require user profesor1 profesor2
