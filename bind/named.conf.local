@@ -5,12 +5,12 @@
 // Consider adding the 1918 zones here, if they are not used in your
 // organization
 //include "/etc/bind/zones.rfc1918";
-zone "daw0.local" {
+zone "daw23.local" {
 	type master;
-	file "/etc/bind/db.daw0.local";
+	file "/etc/bind/db.daw23.local";
 	};
-zone "0.168.192.in-addr.arpa" {
+zone "3.168.192.in-addr.arpa" {
 	type master;
-	file "/etc/bind/db.0.168.192.in-addr.arpa";
+	file "/etc/bind/db.3.168.192.in-addr.arpa";
 	};
 
