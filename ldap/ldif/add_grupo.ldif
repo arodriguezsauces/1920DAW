@@ -1,0 +1,4 @@
+dn: cn=jefes,ou=grupoSmr,dc=sauces,dc=local
+objectClass: posixGroup
+cn: jefes
+gidNumber: 10000

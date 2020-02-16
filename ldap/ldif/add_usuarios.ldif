@@ -1,0 +1,33 @@
+###
+### ALTA DE USUARIOS
+###
+######################################
+#  Usuarios zipi de la unidad organizativa usuarios
+dn: uid=zipi,ou=grupoSmr,dc=sauces,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: zipi
+sn: Escobar 
+cn: Zipi Escobar
+o:sauces
+uidNumber: 1100
+gidNumber: 10000
+homeDirectory: /home/zipi
+mail: zipi@sauces.local 
+userPassword: paso
+
+# Usuarios zape de la unidad organizativa usuarios
+dn: uid=zape,ou=grupoSmr,dc=sauces,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: zape
+sn: Escobar
+cn: Zape Escobar
+o:sauces
+uidNumber: 1101
+gidNumber: 10000
+homeDirectory: /home/zape
+mail: zape@sauces.local
+userPassword: paso

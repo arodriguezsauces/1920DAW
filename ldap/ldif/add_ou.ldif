@@ -1,0 +1,17 @@
+######################################
+###
+###
+### ALTA DE UNIDAD ORGANIZATIVAS (OU)
+###
+######################################
+dn: ou=grupoSmr,dc=sauces,dc=local
+objectClass: organizationalUnit
+ou: grupoSmr
+
+dn: ou=grupoDaw,dc=sauces,dc=local
+objectClass: organizationalUnit
+ou: grupoDaw
+
+dn: ou=usuarios,dc=sauces,dc=local
+objectClass: organizationalUnit
+ou: usuarios
