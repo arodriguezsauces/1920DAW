@@ -13,6 +13,7 @@
 
 - [ ] Instalación de MySQL (mysql-server)
 - [ ] Testear funcionamiento de MySQL
+- [ ] Versión de mysql
     
 ### PHP 
 - [ ] Instalación de **PHP 7.4**
@@ -29,12 +30,20 @@ Instalar módulos
 ```bash
 sudo apt install nombredelmodulo
 ```
-### Instalación de módulos PHP dependiendo de la versión php instalada
+### Mantenimiento de módulos PHP 
 - [ ] php7.x-mysql
 - [ ] php7.x-intl
 - [ ] php7.x-xml
 - [ ] php7.x-soap
 - [ ] php7.x-zip
+
+### Mantenimiento de módulos de Apache
+En el módulo /etc/apache2/sites-enabled/dir.conf añadir el fichero index.php
+```bash
+<IfModule mod_dir.c>
+    DirectoryIndex index.html index.cgi index.pl **index.php** index.xhtml index.htm
+</IfModule>
+```
 
 
 ### Instalacion phpMyAdmin
