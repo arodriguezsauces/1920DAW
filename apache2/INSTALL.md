@@ -3,6 +3,8 @@
 - [ ] Instalación apache2 
 - [ ] Cortafuegos (ufw help)
 - [ ] Comprobación de funcionamiento
+    * Desde la máquina anfitriona
+    * Desde el propio servidor (instala el cliente HTTP, **curl**)
 
 
 ## 2. Servidor de aplicaciones PHP con MySQL
