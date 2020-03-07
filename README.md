@@ -1,5 +1,12 @@
 # 1920DAW
-Despliegue de Aplicaciones Web
+Despliegue de Aplicaciones Web: Prerequisitos
+## Máquina virtuales
+ | XXX-USxxx | Servidor |
+ | --- | ---|
+ | Memoria | 2 Gb |
+ | Disco  | 500 Gb |
+ | Particiones | / 100 Gb  /var 390  y resto SWAP |
+
 ## Configuración de red
 
   * Servidor HTTP Apache XXX-USED
