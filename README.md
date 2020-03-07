@@ -16,5 +16,5 @@ Despliegue de Aplicaciones Web
 | SSH | miadmin/paso | 
 | Apache | operadorweb/paso |
 | MySQL | root/-- |
-| - | admindb/paso|
+| - | adminsql/paso|
 | tomcat | tomcat/paso |
