@@ -21,6 +21,17 @@
 - [ ] Testear funcionamiento de PHP
 - [ ] Versión instalada 
         
+### Configuración PHP con Apache
+Editar el fichero /etc/php/7.4/apache2/php.ini
+```bash
+file-uploads = On
+allow-url_fopen = On
+memory_limit = 256M
+upload_max_filesize = 100M
+max_execution_time = 360
+date.timezone = Europe/Madrid
+```
+
 ### MÓDULOS PHP 7.4
 Listado o búsqueda de los módulos de php
 ```bash
