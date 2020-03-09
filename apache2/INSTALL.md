@@ -56,7 +56,7 @@ sudo apt install nombredelmodulo
 En el módulo /etc/apache2/mod-enabled/dir.conf añadir el fichero index.php
 ```bash
 <IfModule mod_dir.c>
-    DirectoryIndex index.html index.cgi index.pl **index.php** index.xhtml index.htm
+    DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
 </IfModule>
 ```
 
