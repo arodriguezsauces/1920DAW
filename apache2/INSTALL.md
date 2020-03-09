@@ -78,3 +78,12 @@ xdebug.remote_port = 9000
 ### Instalacion phpMyAdmin
 - [ ] Instalación phpmyadmin
 - [ ] Comprobación http://IP/phpmyadmin
+
+## 3. Servidor SSH: Usuarios
+- [ ] Instalación/Comprobación de SSH (openssh-server)
+- [ ] Listar los puertos (netstat -ltn, puerto 22)
+- [ ] Creación de usuario:
+
+* Nombre del usuario operadorweb, su home /var/www y grupo www-data
+* Permisos de /var/www/html son 2775 y propietario operadorweb:www-data de forma recursiva
+- [ ] Modificar el fichero /etc/sshd_config para enjaular al usuario
