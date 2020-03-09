@@ -32,6 +32,9 @@ max_execution_time = 360
 date.timezone = Europe/Madrid
 ```
 
+| php.ini | Entorno Desarrollo | Entorno Producción |
+| ---     | ---                | ---                |
+| Errores | display_errors  = On / display_startup_errors = On | display_errors  = Off  /display_startup_errors = Off |
 ### MÓDULOS PHP 7.4
 Listado o búsqueda de los módulos de php
 ```bash
@@ -48,6 +51,7 @@ sudo apt install nombredelmodulo
 - [ ] php7.x-soap
 - [ ] php7.x-zip
 
+
 ### Mantenimiento de módulos de Apache
 En el módulo /etc/apache2/sites-enabled/dir.conf añadir el fichero index.php
 ```bash
@@ -56,6 +60,20 @@ En el módulo /etc/apache2/sites-enabled/dir.conf añadir el fichero index.php
 </IfModule>
 ```
 
+### Herramienta de desarrollo Xdebug para PHP
+Instalación
+```bash
+sudo apt install php-xdebug
+```
+Configuración editar el fichero /etc/php/7.x/mods-available/xdebug.ini
+```bash
+zend_extension=xdebug.so
+xdebug.show_error_trace = 1
+xdebug.remote_enable = on
+xdebug.remote_handler = dbgp
+xdebug.remote_host = localhost
+xdebug.remote_port = 9000
+```
 
 ### Instalacion phpMyAdmin
 - [ ] Instalación phpmyadmin
