@@ -88,6 +88,9 @@ xdebug.remote_port = 9000
 * Permisos de /var/www/html son 2775 y propietario operadorweb:www-data de forma recursiva
 - [ ] Modificar el fichero /etc/ssh/sshd_config para enjaular al usuario
 ```bash
+
+Subsystem sftp internal-sftp
+
 Match Group www-data
    ChrootDirectory %h
    ForceCommand internal-sftp -u 2
