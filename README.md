@@ -23,5 +23,6 @@ Despliegue de Aplicaciones Web: Prerequisitos
 | SSH | miadmin/paso | 
 | Apache | operadorweb/paso |
 | MySQL | root/-- |
-| - | adminsql/paso|
+| - | adminsql/P@ssw0rd|
+| -  | phpmyadmin/P@ssw0rd |
 | tomcat | tomcat/paso |
